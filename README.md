@@ -14,26 +14,6 @@ A sample microservices architecture built with Express.js, MongoDB, and Docker. 
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Project Structure
-Here's the content for your README.md file:
-
-```markdown
-# Microservices Project
-
-A sample microservices architecture built with Express.js, MongoDB, and Docker. This project demonstrates a practical implementation of microservices, featuring an API Gateway that routes requests to specialized backend services.
-
-## Architecture Overview
-
-- **API Gateway** (port 3000): Central entry point that routes requests to appropriate services
-- **User Service** (port 3001): Handles user management operations with its dedicated MongoDB
-- **Product Service** (port 3002): Manages product data with its own MongoDB instance
-
-## Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/install/)
-
-## Project Structure
 
 ```
 microservices-project/
